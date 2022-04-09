@@ -25,7 +25,7 @@ public class CalculatorService {
         if (b.equals(BigDecimal.ZERO)) {
             throw new ArithmeticException("Division by zero");
         }
-        return a.divide(b,5, RoundingMode.HALF_UP);
+        return a.divide(b, 5, RoundingMode.HALF_UP);
     }
 }
 
