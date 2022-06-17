@@ -9,4 +9,4 @@
 Java 17
 Run app: src/main/java/ru/sladkkov/calculator/CalculatorApplication.java
 
-Swagger Doc: http://localhost:8080/swagger-ui/index.html#/
+Swagger Doc: http://localhost:9090/swagger-ui/index.html#/
