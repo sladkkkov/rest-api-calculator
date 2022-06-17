@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 @RestController
 @RequestMapping("calculator/v1")
 @Tag(name = "Calculation controller", description = "Позволяет выполнять простые операции с числами")
-public class CalculatorController {
+public class    CalculatorController {
 
     @Parameter(description = "Сервис для калькулятора, инжектится спрингом автоматически. " +
             "Содержит всю логику для операций: сложения, вычитания, деления, умножения.")

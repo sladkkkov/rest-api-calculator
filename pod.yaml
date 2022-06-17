@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: calculator
+  labels:
+    env: test
+spec:
+  containers:
+    - name: calculator
+      image: sladkkov/calculator:1.0.0
+      imagePullPolicy: IfNotPresent
